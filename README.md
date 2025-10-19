@@ -2,7 +2,7 @@
 
 > **Author:** Mouhamed SARR  
 > 🎓 MSc Data Management — 2025  
-> 🔗 [LinkedIn](https://www.linkedin.com/in/tonprofil) • [GitHub](https://github.com/ton_username)
+> 🔗 [LinkedIn](https://www.linkedin.com/in/mouhamedsarr) • [GitHub](https://github.com/quelqufghjk)
 
 ---
 
@@ -36,9 +36,6 @@ flowchart LR
     end
     F --> G --> H
 
-----------------------------------------------------------
-Project Architecture
-----------------------------------------------------------
 
 Fraud_detection_project/
 ├── Kafka/
