@@ -1,0 +1,14 @@
+Threshold: 0.5
+
+              precision    recall  f1-score   support
+
+   Non-Fraud       1.00      0.96      0.98    199893
+       Fraud       0.01      0.94      0.02       107
+
+    accuracy                           0.96    200000
+   macro avg       0.51      0.95      0.50    200000
+weighted avg       1.00      0.96      0.98    200000
+
+Confusion Matrix:
+[[191133   8760]
+ [     6    101]]

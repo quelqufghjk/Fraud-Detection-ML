@@ -1,0 +1,1 @@
+["step", "amount", "oldbalanceOrg", "newbalanceOrig", "oldbalanceDest", "newbalanceDest", "isFlaggedFraud", "type_CASH_OUT", "type_DEBIT", "type_PAYMENT", "type_TRANSFER", "dest", "orig", "log_amount", "amount_vs_balance_orig", "amount_vs_balance_dest", "orig_balance_change", "dest_balance_change", "flag_neg_newbalanceOrig", "flag_orig_no_balance", "flag_dest_no_balance"]
