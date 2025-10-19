@@ -23,6 +23,7 @@ The system integrates:
 
 ## 🏗️ Global Architecture
 
+```mermaid
 flowchart LR
     subgraph Docker["🐳 Docker Environment"]
         subgraph KafkaStack["Apache Kafka Stack"]
