@@ -35,34 +35,3 @@ flowchart LR
         H(dag_backup)
     end
     F --> G --> H
-
-
-Fraud_detection_project/
-├── Kafka/
-│   ├── producer.py
-│   ├── consumer.py
-│   ├── docker-compose.yml
-│   └── utils.py
-├── ML/
-│   ├── model.pkl
-│   ├── training.py
-│   └── preprocessing.py
-├── SQL/
-│   ├── docker-compose.sql.yml
-│   ├── init/
-│   │   └── init.sql
-│   └── export_sql_to_csv.py
-├── airflow/
-│   ├── dags/
-│   │   ├── dag_pipeline_startup.py
-│   │   ├── dag_scoring.py
-│   │   └── dag_backup.py
-│   ├── docker-compose.yml
-│   └── logs/
-└── streamlit_app/
-    └── dashboard.py
-
-
-
-
-
