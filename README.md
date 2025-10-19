@@ -25,9 +25,9 @@ The system integrates:
 
 ```mermaid
 flowchart LR
-    A[Producer.py] -->|transactions JSON| B[(Apache Kafka)] [(deployed with Docker)]
+    A[Producer.py] -->|transactions JSON| B[(Apache Kafka)]
     B --> C[Consumer.py]
-    C --> D[(SQL Server)] [(Deployed in Docker)]
+    C --> D[(SQL Server)]
     D --> E[Streamlit Dashboard]
     subgraph Airflow
         F(dag_pipeline_startup)
